@@ -4,6 +4,10 @@ class Library {
     this.creator = creator
     this.playlists = [/*{}, {}*/]
   }
+
+  addPlaylist(playlist) {
+    this.playlists.push(playlist)
+  }
 }
 
 class Playlist {
